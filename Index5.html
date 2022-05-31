@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+<title >Document</title>
+<link rel="stylesheet" href="./normalize.css_v8.0.1.css">
+
+<style>
+    header {
+            width: 100%;
+            margin: 0 auto;
+            border: 1px solid black;
+        }
+
+        .flex-container_main{
+            display: flex;
+            justify-content: center;
+        }
+
+        section{
+            float: left;
+  width: 60%;
+  height: 30vh;
+  border: 1px solid black;
+        }
+
+        aside{
+            float: right;
+  width: 39%;
+  height:30vh;
+  border: 1px solid black;
+        }
+        h2{
+        text-align: center;   
+        }
+        .footer{
+            border: 1px solid black;
+            clear: both;
+           height:10vh ;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+       
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="header">
+<h2>[Шапка страницы]</h2>
+</div>
+</header>
+<main>
+    <section>
+    <div class="header_main">
+            <h2>[Основная часть]</h2></div>
+            <div class="flex-container_main">
+            <div class="box1">[Еще 1]</div>
+            <div class="box2">[Еще 2]</div>
+            <div class="box3">[Еще 3]</div>
+            </div>
+</section>
+<aside>
+    <div class="header_side">
+        <h2>[Боковая область]</h2>
+    </div>
+</aside>
+</main>
+<footer>
+    <div class="footer">
+        <div class="flex-container"></div>
+        <div>[Секция футера 1]</div>
+        <div>[Секция футера 2]</div>
+        <div>[Секция футера 3]</div>
+        <div>[Секция футера 4]</div>
+</div>
+</footer>
+</body>
+</html>
