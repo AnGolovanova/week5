@@ -12,10 +12,25 @@
             border: 1px solid black;
         }
 
+.header_main{
+    height: 50%;
+}
+
         .flex-container_main{
+            text-align: center;
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
+            align-items: stretch;
         }
+
+.box{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    width: 35%;
+    flex-wrap: wrap;
+}
 
         section{
             float: left;
@@ -30,9 +45,12 @@
   height:30vh;
   border: 1px solid black;
         }
+
+
         h2{
         text-align: center;   
         }
+
         .footer{
             border: 1px solid black;
             clear: both;
@@ -57,9 +75,9 @@
     <div class="header_main">
             <h2>[Основная часть]</h2></div>
             <div class="flex-container_main">
-            <div class="box1">[Еще 1]</div>
-            <div class="box2">[Еще 2]</div>
-            <div class="box3">[Еще 3]</div>
+            <div class="box box1">[Еще 1]</div>
+            <div class="box box2">[Еще 2]</div>
+            <div class="box box3">[Еще 3]</div>
             </div>
 </section>
 <aside>
